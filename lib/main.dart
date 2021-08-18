@@ -39,7 +39,8 @@ class MyApp extends StatelessWidget {
           child: MaterialApp(
             debugShowCheckedModeBanner: false,
             title: 'Clima',
-            initialRoute: 'filtrosAvanzada', //cambiar a login
+            initialRoute:
+                'filtrosAvanzada', //cambiar a login para entrar a la aplicacion general o a filtrosAvanzada para visualizar la parte de buscar información por filtros
             routes: {
               'login': (BuildContext context) => LoginPage(),
               'registro': (BuildContext context) => RegistroPage(),
@@ -51,7 +52,8 @@ class MyApp extends StatelessWidget {
               'recomendaciones': (BuildContext context) =>
                   RecomendacionesPage(),
               'usuario': (BuildContext context) => UsuarioPage(),
-              'filtrosAvanzada': (BuildContext context) => BusquedaAvanzada(),
+              'filtrosAvanzada': (BuildContext context) =>
+                  BusquedaAvanzada(), // esta ruta sirve para acceder a la parte nueva para aplicar filtros
             },
           ),
         ));
