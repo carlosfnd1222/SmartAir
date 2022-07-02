@@ -31,32 +31,35 @@ class _Navegacion extends StatelessWidget {
               Icons.info,
               color: Colors.purple[900],
             ),
-            title: Text('Información',
-                style: TextStyle(
-                    fontSize: 17,
-                    fontWeight: FontWeight.normal,
-                    color: Colors.purple[900])),
+            label: Text('Información',
+                    style: TextStyle(
+                        fontSize: 17,
+                        fontWeight: FontWeight.normal,
+                        color: Colors.purple[900]))
+                .toString(),
           ),
           BottomNavigationBarItem(
               icon: Icon(
                 Icons.account_tree_rounded,
                 color: Colors.purple[900],
               ),
-              title: Text('Estaciones',
-                  style: TextStyle(
-                      fontSize: 17,
-                      fontWeight: FontWeight.normal,
-                      color: Colors.purple[900]))),
+              label: Text('Estaciones',
+                      style: TextStyle(
+                          fontSize: 17,
+                          fontWeight: FontWeight.normal,
+                          color: Colors.purple[900]))
+                  .toString()),
           BottomNavigationBarItem(
               icon: Icon(
                 Icons.account_circle,
                 color: Colors.purple[900],
               ),
-              title: Text('Cuenta',
-                  style: TextStyle(
-                      fontSize: 17,
-                      fontWeight: FontWeight.normal,
-                      color: Colors.purple[900]))),
+              label: Text('Cuenta',
+                      style: TextStyle(
+                          fontSize: 17,
+                          fontWeight: FontWeight.normal,
+                          color: Colors.purple[900]))
+                  .toString()),
         ]);
   }
 }
